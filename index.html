@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <style>
+        label {
+            display: block;
+            float: left;
+            width: 70px;
+        }
+    </style>
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+    <section>
+        <a href="#fin">Ir al final</a>
+        <h1 id="inicio"><u>Curriculum Vitae</u></h1>
+
+        <img src="https://i.pinimg.com/564x/7d/15/c4/7d15c44844078a04c4a4c142ea391604.jpg"
+            alt="Lo siento, la foto de perfil de CV no pudo ser cargada. Intenta de nuevo" height="150px" width="130px">
+        <br>
+
+        <h2><u>Datos Personales</u></h2>
+        <ul>
+            <li><b>Nombre y Apellido: </b><mark><u>Pablo Gorriaran</u></mark></li>
+            <li><b>DNI: </b>28.444.333.</li>
+            <li><b>Correo Electrónico: </b>pablogorriaran@gmail.com</li>
+            <li><b>Dirección: </b>Bauness 3200 - CABA</li>
+            <li><b>Teléfono: </b>1144443322</li>
+            <li><b>Estado Cívil: </b>Soltero</li>
+        </ul>
+
+        <h2><u>Estudios Realizados</u></h2>
+        <ul>
+            <li><b>Estudios Universitarios: </b>Ingeniería en Informática UBA</li>
+            <li><b>Estudios Terciarios: </b>Analista de Sistemas</li>
+            <li><b>Estudios Secundarios: </b>E.T. N 24 Defensa de Buenos Aires</li>
+        </ul>
+        <h2><u>Cursos Efectuados</u></h2>
+        <ul>
+            <li>Desarrollo Frontend GCBA</li>
+            <li>Programación en Python</li>
+        </ul>
+
+    </section>
+
+    <section>
+        <h2 id="mi_titulo"><u>Contactame</u></h2>
+        <!-- Se utiliza el método post para no mostrar en el browser los datos del usuario-->
+        <form id="form" class="form" action="" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required type="text" placeholder="Ingrese su Nombre">
+            </div>
+            <div>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required type="text" placeholder="Ingrese su Apellido">
+            </div>
+            <div>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required type="email" placeholder="Ingrese su Correo">
+            </div>
+            <br>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" required type="tel" placeholder="Ingrese su Teléfono">
+            </div>
+            <br>
+            <input type="submit" class="enviar" id="enviar" oneclick="mensaje" name="enviar" value="Enviar">
+            <p id="fin"></p>
+
+            <a href="#inicio">Ir al inicio</a>
+
+
+        </form>
+
+    </section>
+
+</body>
+<script src="js/validacion.js"></script>
+
+</html>

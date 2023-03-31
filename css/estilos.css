@@ -1,0 +1,51 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #E5E5E5;
+    font-style: italic;
+    font-size: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+  }
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: left;
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mi_titulo {
+    color: indianred;
+    font-size: 25px;
+    
+}
+
+section {
+width: 400px;
+border: 10px solid black;
+padding: 80px;
+margin: 30px;
+}
+
+.enviar {
+    background-color: lightseagreen;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 15px;
+    position: relative; 
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
